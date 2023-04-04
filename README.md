@@ -1,5 +1,5 @@
 # java-study-Dongyoon 
-📓LikeLion KWU java study (dongyoon)
+🦁LikeLion KWU java study (동윤)
 
 멋쟁이 사자처럼 광운대 java 스터디 2팀 레포
 
