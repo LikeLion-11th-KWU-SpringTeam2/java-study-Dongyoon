@@ -57,3 +57,16 @@ feature : 새로운 기능 추가 개발(병렬 작업)
 13. $ git commit -m "첫번째 커밋"
 14. $ git branch -M main
 15. $ git log
+
+#github에 소스 반영 기본
+step1. $ git remote add origin <원격저장소 주소>
+로컬 저장소의 프로젝트를 원격 저장소에 반영
+step2. $ git push -u origin <브랜치명(main..)>
+처음 -u 옵션을 사용해서 psuh하면 다음번에 push 할때는 $ git push만 써도 됨
+github에서 코드 확인 가능
+
+#github에 소스 반영 실전
+1. new repository 생성
+2. $ git remote add origin <원격저장소 주소>
+3. $ git push -u origin <브랜치명(main..)>
+4. 인증정보 필요로 함 sign in your broswer
