@@ -53,7 +53,7 @@ feature : 새로운 기능 추가 개발(병렬 작업)
 9. $ git add test.txt
 10. $ git status
 11. $ git rm --catched text.txt / add 명령 취소 
-12. $ git add. 
+12. $ git add . 
 13. $ git commit -m "첫번째 커밋"
 14. $ git branch -M main
 15. $ git log
