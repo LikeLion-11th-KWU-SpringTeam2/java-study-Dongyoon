@@ -13,7 +13,7 @@ logal repository : 각 컴퓨터에 git이 관리하는
 remote 영역
 Remote Repository - Github : github 등 외부에 위치한 원격 저장소
 
-# 로컬 git 저장소 생성
+# 로컬 git 저장소 생성 기본
 step 1. $ git init
 .git ; 모든 데이터 / init 명령으로 초기화
 * 나의 프로젝트가 위치한 곳으로 이동 후 터미널서 명령 실행 
@@ -35,7 +35,25 @@ step5. $ got commit  -m "<meassage>"
 commit을 통해 local repository로 이동
 
 step6. $ got branch -M main (option)
+현재 바라보고 있는 branch의 이름을 main으로 변경
 branch 독립적 개발 환경 
 main/ master : 즉시 운영 배포할 수 있는 버전/ 사용자가 지금 이용중인 코드 
+staging : 상용에 반영하기 전 테스트 버전
+feature : 새로운 기능 추가 개발(병렬 작업)
 
-
+#로컬 git 저장소 생성 (2)
+1. test 폴더 데스크탑에 생성
+2. vscode에서 작업할 폴더에서 test 폴더 선택
+3. test.txt 파일 생성 
+4. hello! + save 
+5. new terminal / git bash 
+6. $ git init
+7. $ ls -al 로 모든 숨김 파일까지 볼 수 있음
+8. 파일에 gitignore 만들기 
+9. $ git add test.txt
+10. $ git status
+11. $ git rm --catched text.txt / add 명령 취소 
+12. $ git add. 
+13. $ git commit -m "첫번째 커밋"
+14. $ git branch -M main
+15. $ git log
