@@ -1,0 +1,41 @@
+# Git & Github 등장과 역할
+SCM (source code managment)
+저장소에 저장되 소스의 변경 사항과 작업자를 추적 
+Git - 소스 이력 추적을 위한 버전 관리 시스템
+Github - git 프로젝트를 관리하는 저장소 제공
+
+# Git 동작 흐름과 구성요소 
+logal 영역
+working directory : 현재 작업 중이 프로젝트가 위치한 디렉토리 
+staging : commit 할 파일의 예비 저장소
+logal repository : 각 컴퓨터에 git이 관리하는
+로컬 저장소
+remote 영역
+Remote Repository - Github : github 등 외부에 위치한 원격 저장소
+
+# 로컬 git 저장소 생성
+step 1. $ git init
+.git ; 모든 데이터 / init 명령으로 초기화
+* 나의 프로젝트가 위치한 곳으로 이동 후 터미널서 명령 실행 
+
+step2. gitignore 파일 추가 
+.gitignore 파일과 같은 위치에 있는 -.txt는 git에서 무시
+(보안상 민감 정보, 각종 설정 차이, 개발용 데베)
+
+step3. $ git status
+git에 어떤 파일이 있는지 보여줌 
+
+step4. $ git add. $ git add "<파일명>"
+add : 나의 프로젝트 중 버전관리에 반영할 파일 지정 
+add 명령어로 working directory에서 staging으로 
+만약 잘못 add했다면, rm/reset 명령어로 되돌릴 수 있음
+
+step5. $ got commit  -m "<meassage>"
+로컬 저장소에 변동 기록 즉, 버전 기록을 남기기 위해 commit을 실행
+commit을 통해 local repository로 이동
+
+step6. $ got branch -M main (option)
+branch 독립적 개발 환경 
+main/ master : 즉시 운영 배포할 수 있는 버전/ 사용자가 지금 이용중인 코드 
+
+
