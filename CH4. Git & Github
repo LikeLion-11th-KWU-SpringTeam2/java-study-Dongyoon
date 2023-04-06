@@ -70,3 +70,17 @@ github에서 코드 확인 가능
 2. $ git remote add origin <원격저장소 주소>
 3. $ git push -u origin <브랜치명(main..)>
 4. 인증정보 필요로 함 sign in your broswer
+
+#github로 협업하기
+step1. $ git clone <원격저장소 주소>
+clone 파일 .git 포함 -> 이거 써야햄
+다운로드 zip .git 포함 x
+step2. 
+$ git checkout -b <브랜치명>
+$ git checkout <브랜치명>
+$ git commit -m...
+step3. $ git merge <합칠 브랜치명>
+
+#git GUI 활용하기
+터미널의 명령어가 아닌 그래픽 유저 인터페이스 활용
+git fork 
